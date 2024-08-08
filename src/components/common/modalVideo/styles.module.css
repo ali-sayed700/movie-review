@@ -1,0 +1,19 @@
+.videoModal {
+  width: 80vw;
+  height: 35vh;
+  z-index: 25;
+  position: relative;
+}
+
+@media (min-width: 640px) {
+  .videoModal {
+    width: 80vw;
+    height: 60vh;
+  }
+}
+@media (min-width: 768px) {
+  .videoModal {
+    width: 570px;
+    height: 370px;
+  }
+}

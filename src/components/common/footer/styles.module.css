@@ -1,0 +1,12 @@
+.footerLink {
+  transition: all 0.3s ease-in-out;
+  color: #ccc;
+  display: block;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.footerLink:hover {
+  color: #fff;
+  text-decoration: underline;
+}

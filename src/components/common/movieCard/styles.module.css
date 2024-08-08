@@ -1,0 +1,34 @@
+.movieCardImg {
+  object-fit: cover;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.iconTube {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: #000000af;
+  object-fit: cover;
+}
+.iconTube:hover {
+  opacity: 1;
+}
+
+.iconTube > div {
+  font-size: 48px;
+  transition: all 0.3s linear;
+  color: #ff0000;
+  transform: scale(0.5);
+}
+
+.iconTube:hover > div {
+  transform: scale(1);
+}

@@ -1,0 +1,10 @@
+.trans {
+  transition: all 0.3s linear;
+}
+
+.scal95 {
+  transform: scale(0.95);
+}
+.scal100 {
+  transform: scale(1);
+}

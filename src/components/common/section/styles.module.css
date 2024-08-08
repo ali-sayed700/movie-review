@@ -1,0 +1,43 @@
+/* section  */
+.section {
+  padding: 1rem;
+  font-family: nunito;
+}
+.section > div:not(:last-child) {
+  h3 {
+    position: relative;
+  }
+  h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    width: 60%;
+    height: 2px;
+    background-color: red;
+  }
+  a {
+    transition: all 0.3s linear;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+  }
+  a:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* media query */
+@media (max-width: 767px) {
+  .section {
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .section > div:not(:last-child) {
+    h3 {
+      font-size: 16px !important;
+    }
+  }
+}

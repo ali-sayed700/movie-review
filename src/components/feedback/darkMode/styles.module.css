@@ -1,0 +1,40 @@
+.dropdown {
+  position: absolute;
+  top: 104%;
+  right: 4%;
+  flex-direction: column;
+  background-color: #00000062;
+  border-radius: 0.5rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 7rem;
+}
+
+.dropdown li {
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  padding: 0 0.5rem !important;
+}
+
+.dropdown li:hover {
+  background-color: rgba(73, 68, 68, 0.404);
+}
+
+.dropdown li button {
+  width: 100%;
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdown li button:hover {
+  color: #ccc;
+}
